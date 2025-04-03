@@ -1,0 +1,56 @@
+body{
+    display: block;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(174, 216, 250);
+}
+header{
+    
+    background-color: rgb(16, 2, 43);
+    
+}
+header h1{
+    color: white;
+}
+
+.con{
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.tit{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    border-bottom: 2px solid #333;
+    background-color: rgb(12, 5, 51);
+    color: white;
+    height: 100px; 
+
+}
+th{
+    padding: 15px;
+}
+td{
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+table{
+    border-collapse: collapse;
+    justify-content: center;
+    background-color: #fff5;
+    
+
+}
+.img{
+    width: 300px;
+    height: 100px; 
+}
+.ho:hover{
+    background-color: #7e8aaa; /* Cambio de color al pasar el ratón */
+    cursor: pointer;
+    
+}
+
